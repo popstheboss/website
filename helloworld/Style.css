@@ -1,0 +1,74 @@
+
+body {
+  background: gray url("img_tree.gif") no-repeat fixed center;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  color: orange;
+}
+
+h1 {
+  color:
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-areas:
+  "header header"
+  "main main"
+  "footer footer"
+}
+
+footer {
+  grid-area: footer;
+}
+
+main {
+  grid-area: main;
+}
+header {
+  grid-area: header;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+}
+
+li a {
+  display: Block;
+  color: orange;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: gray;
+  color: orange;
+}
+
+body {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
